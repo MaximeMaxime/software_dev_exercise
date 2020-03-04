@@ -48,7 +48,7 @@ As data is received from the services in Exercise 1, it should be curated and st
     - Later use of the stored data will be to be retrieved as described in *Exercise 3*
 
 **Bonus Points**
-    - Can you show how your API reacts to important load (load testing with fake data)?
+- Can you show how your API reacts to important load (load testing with fake data)?
 
 # Exercise 3 : Retrieve API
 Create an API to retrieve the stored data from *Exercise 2*.  
