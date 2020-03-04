@@ -33,12 +33,12 @@ Use any presentation form you deem necessary (ppt, pdf, schema, drawings, code s
 2. Send the ingested data to an independent service described in *Exercise 2*
 
 List of RSS feeds : 
-    - CBC Top Stories : https://rss.cbc.ca/lineup/topstories.xml
-    - CBC Montreal Regional News : http://rss.cbc.ca/lineup/canada-montreal.xml
-    - Global News Tech : https://globalnews.ca/tech/feed/
+- CBC Top Stories : https://rss.cbc.ca/lineup/topstories.xml
+- CBC Montreal Regional News : http://rss.cbc.ca/lineup/canada-montreal.xml
+- Global News Tech : https://globalnews.ca/tech/feed/
 
 **Bonus Points** 
-    - Bonus points if you create another service that will scrape cbc's main web page and extract articles information and store it (dont overdo it - you dont want to get blacklisted, just build it and run it once during the demo to show how it would work)
+- Bonus points if you create another service that will scrape cbc's main web page and extract articles information and store it (dont overdo it - you dont want to get blacklisted, just build it and run it once during the demo to show how it would work)
 
 # Exercise 2 : Data Store
 As data is received from the services in Exercise 1, it should be curated and stored. 
@@ -52,12 +52,12 @@ As data is received from the services in Exercise 1, it should be curated and st
 
 # Exercise 3 : Retrieve API
 Create an API to retrieve the stored data from *Exercise 2*.  
-    - Search should be allowed by author, and/or keywords (categories) and ideally by time periods.  
-    - Requests to the API should require authentication
-    - API should return the arguments passed as well as a list of articles fitting the parameters
+- Search should be allowed by author, and/or keywords (categories) and ideally by time periods.  
+- Requests to the API should require authentication
+- API should return the arguments passed as well as a list of articles fitting the parameters
 
 **Bonus Points** 
-    - Bonus points for an async service
+- Bonus points for an async service
 
 # Exercise 4 : Monitoring
 1. Monitor the health status of your services from previous exercises
